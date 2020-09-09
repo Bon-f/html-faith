@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
 	background:url(bonhtml.jpg.jpg);
 	background-size: cover;
@@ -47,11 +52,14 @@ input{
 	padding-left: 5px;
 	border: none;
 	width: 100px;
+	transition:2s;
 }
 input:focus{
-	width: 200px;
+	width: 150px;
 	color:black;
 	background-color: transparent;
+	transition: 2s;
+	font-weight: bold;
 }
 form button {
 	margin-top: 20px;
